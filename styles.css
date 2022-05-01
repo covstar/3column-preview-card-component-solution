@@ -95,7 +95,7 @@ button{
 @media only screen and (max-width: 900px){
     section{
         display: block;
-        Padding: 5% 5%;
+        Padding: 5% 2%;
     }
     .sedans{
         border-radius: 10px 10px 0 0;
