@@ -1,6 +1,6 @@
 /* First Section */
 
-section {
+main {
     padding: 9% 20%;
     display: flex;
 }
@@ -95,7 +95,7 @@ button{
 
 
 @media only screen and (max-width: 900px){
-    section{
+    main{
         display: block;
         Padding: 5% 2%;
     }
