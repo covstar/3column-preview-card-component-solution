@@ -1,0 +1,111 @@
+/* First Section */
+
+section {
+    padding: 9% 20%;
+    display: flex;
+}
+h1{
+    color: white;
+    font-family: "Bebas kai";
+    font-size: 2rem;
+}
+p{
+    color: white;
+    line-height: 1.5;
+    font-family: "cambria";
+}
+button{
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-family: "cambria";
+}
+.sedans button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+
+}
+.suvs button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+
+}
+.luxury button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+
+}
+
+
+/* Second Section */
+
+.sedans{
+    background-color: #e69500;
+    border-radius: 10px 0px 0 10px;
+}
+.sedans button{
+    color: rgb(224, 146, 0);
+    border: 2px solid #f39e00;
+}
+.suvs{
+    background-color: #166f75;
+    
+}
+.suvs button{
+    color: #166f75;
+    border: 2px solid #1b848b;
+}
+.luxury{
+    background-color: #024721;
+    border-radius: 0px 10px 10px 0;
+}
+.luxury button{
+    color: #024721;
+    border: 2px solid  #025226;
+}
+.cars{
+    padding: 6%;
+
+}
+
+/* Third Section */
+
+/* Footer / Atrribution */
+.attribution {
+    text-align: center;
+    font-size: .8rem;
+    padding: 0 2rem 3rem;
+    font-weight: 600;
+    color: black;
+}
+
+.attribution a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #f39e00;
+}
+
+
+/* Mobile design */
+
+@media only screen and (max-width: 900px){
+    section{
+        display: block;
+    }
+    .sedans{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+    .cars{
+        padding: 8% 15% 16%;
+    }
+    button{
+        margin-top: 20px;
+    }
+}
